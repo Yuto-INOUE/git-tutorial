@@ -1,2 +1,4 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿foreach (var i in Enumerable.Range(0, 100))
+{
+	Console.WriteLine(i);
+}
